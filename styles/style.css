@@ -49,6 +49,8 @@ a:hover {
   color: #fff;
 }
 
+/* section welcome */
+
 .contain-welcome {
   margin-top: 5%;
   background-color: #000;
@@ -70,4 +72,63 @@ a:hover {
   font-weight: 100;
   color: #be3144;
   text-align: center;
+}
+
+/* section projects */
+
+#projects {
+  background: #45567d;
+  padding: 8% 0;
+}
+
+#projects > h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+}
+hr {
+  margin: auto;
+  border-top: 3px solid #fff;
+}
+
+/*container project*/
+.container-project {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5% 0%;
+}
+
+.project-tile{
+    margin-left: 3%;
+}
+.card {
+  border: none;
+  box-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
+}
+.card > img {
+  object-fit: cover;
+  height: 374px;
+}
+
+.body-card {
+  background-color: #3a3d40;
+  padding: 4% 0;
+  text-align: center;
+}
+
+label {
+  font-size: 23px;
+}
+
+.simb1 {
+  font-weight: bold;
+}
+
+.simb-code {
+  color: #303841;
+  transition: color 0.3s ease-out;
+}
+
+.project-tile, .simb-code:hover {
+  color: orange;
 }
