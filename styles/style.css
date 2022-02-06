@@ -56,17 +56,16 @@ a:hover {
 /* section welcome */
 
 .contain-welcome {
-  margin-top: 5%;
-  background-color: #000;
-  height: 100vh;
-  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #welcome-section {
   height: 100vh;
+  margin-top: 5%;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -74,7 +73,7 @@ h1 {
   font-weight: bold;
 }
 
-#welcome-section > h2 {
+.profession > h2 {
   font-style: italic;
   font-weight: 100;
   color: #be3144;
