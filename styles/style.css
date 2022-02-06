@@ -7,6 +7,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #fff;
+}
+a {
+  color: #fff;
 }
 
 #navbar {
@@ -30,7 +34,6 @@
 
 #navbar > ul,
 a {
-  color: #fff;
   text-decoration: none;
 }
 
@@ -65,7 +68,6 @@ a:hover {
 h1 {
   font-size: 60px;
   font-weight: bold;
-  color: #fff;
 }
 
 #welcome-section > h2 {
@@ -83,7 +85,6 @@ h1 {
 }
 
 #projects > h2 {
-  color: #fff;
   text-align: center;
   font-size: 40px;
 }
@@ -138,7 +139,6 @@ label {
 .btn-ver {
   background-color: #3a3d40;
   margin: auto;
-  color: #fff;
   font-size: 23px;
 }
 
@@ -151,12 +151,11 @@ label {
 
 #profile-link {
   background-color: #303841;
-  padding: 7% 0;
+  padding: 2% 0;
 }
 
 .contact-cont {
   text-align: center;
-  color: #fff;
 }
 
 .contact-cont > h5 {
@@ -165,7 +164,6 @@ label {
 }
 
 .redes-social {
-  color: #fff;
   justify-content: center;
   width: 50%;
   margin: auto;
@@ -185,14 +183,60 @@ label {
   padding: 1% 20%;
   display: flex;
   font-size: 23px;
-
 }
 
-.li-r >img{
-    border-radius: 100px;
+.li-r > img {
+  border-radius: 100px;
 }
 
 .li-r:hover {
-    padding-top: 5%;
-    transition: all 0.5s;
+  padding-top: 5%;
+  transition: all 0.5s;
+}
+
+.hr-footer {
+  border-top: 5px solid #be3144;
+  margin-top: 8%;
+}
+
+/* copyright */
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+
+.project-tile {
+    margin-left: 0%; 
+}
+  .card {
+    width: 15rem !important;
+    height: 10rem !important;
+    margin-bottom: 55%;
+    margin-left: 20%;
+  }
+  .card > img {
+    object-fit: cover;
+    height: 200px;
+    width: 300px;
+  }
+
+  .li-r {
+    padding: 1% 5%;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  .body-card {
+    width: 300px;
+  }
+  .btn-ver {
+    margin-top: 75% !important;
+    margin-left: -27%;
+}
 }
