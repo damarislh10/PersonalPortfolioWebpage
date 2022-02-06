@@ -65,6 +65,10 @@ a:hover {
   align-items: center;
 }
 
+#welcome-section {
+  height: 100vh;
+}
+
 h1 {
   font-size: 60px;
   font-weight: bold;
@@ -209,10 +213,9 @@ label {
 }
 
 @media only screen and (max-width: 600px) {
-
-.project-tile {
-    margin-left: 0%; 
-}
+  .project-tile {
+    margin-left: 0%;
+  }
   .card {
     width: 15rem !important;
     height: 10rem !important;
@@ -238,5 +241,5 @@ label {
   .btn-ver {
     margin-top: 75% !important;
     margin-left: -27%;
-}
+  }
 }
