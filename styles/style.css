@@ -15,6 +15,7 @@
   top: 0;
   box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
   height: 11%;
+  z-index: 10;
 }
 
 #navbar > ul {
@@ -34,13 +35,13 @@ a {
 }
 
 #navbar > ul,
-li {
+.nav-li {
   cursor: pointer;
   padding: 1.4% 2%;
   align-items: center;
 }
 
-li:hover {
+.nav-li:hover {
   background-color: #45567d;
 }
 
@@ -61,7 +62,7 @@ a:hover {
   align-items: center;
 }
 
-#welcome-section > h1 {
+h1 {
   font-size: 60px;
   font-weight: bold;
   color: #fff;
@@ -78,7 +79,7 @@ a:hover {
 
 #projects {
   background: #45567d;
-  padding: 8% 0;
+  padding: 8% 0 2% 0;
 }
 
 #projects > h2 {
@@ -98,8 +99,8 @@ hr {
   margin: 5% 0%;
 }
 
-.project-tile{
-    margin-left: 3%;
+.project-tile {
+  margin-left: 3%;
 }
 .card {
   border: none;
@@ -129,6 +130,69 @@ label {
   transition: color 0.3s ease-out;
 }
 
-.project-tile, .simb-code:hover {
+.project-tile,
+.simb-code:hover {
   color: orange;
+}
+
+.btn-ver {
+  background-color: #3a3d40;
+  margin: auto;
+  color: #fff;
+  font-size: 23px;
+}
+
+.btn-ver:hover {
+  background-color: #be3144;
+  color: #fff;
+}
+
+/* profile */
+
+#profile-link {
+  background-color: #303841;
+  padding: 7% 0;
+}
+
+.contact-cont {
+  text-align: center;
+  color: #fff;
+}
+
+.contact-cont > h5 {
+  font-style: italic;
+  font-weight: 100;
+}
+
+.redes-social {
+  color: #fff;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+}
+
+.li-social {
+  display: flex;
+  justify-content: center;
+}
+.li-social > ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.li-r {
+  padding: 1% 20%;
+  display: flex;
+  font-size: 23px;
+
+}
+
+.li-r >img{
+    border-radius: 100px;
+}
+
+.li-r:hover {
+    padding-top: 5%;
+    transition: all 0.5s;
 }
